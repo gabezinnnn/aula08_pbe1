@@ -13,13 +13,15 @@ const alterar = (req, res) => {
     const id = req.params.id
     const dados = req.body
 
-    cliente.forEach(c => {
-        if(c.id == id){
-            c.cpf = dados.cpf
-            c.nome = dados.nome
-            res.send("Atualizado com sucesso")
-        }
+    const chaves = Object.keys(dados)
+
+    const clientinho = cliente.find(c => c.id == id)
+
+    chaves.forEach(chave => {
+        clientinho[chave] = dados[chave]
     })
+
+    res.send("Alterado com sucesso.")
 }
 const excluir = (req, res) => {
     const id = req.params.id

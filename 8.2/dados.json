@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "Fulano da Silva",
+        "endereco": "Rua Sem Saida, 123",
+        "cidade": "Fulanolândia"
+    },
+    {
+        "id": 2,
+        "nome": "Ciclano da Silva",
+        "endereco": "Rua Sem Saida, 321",
+        "cidade": "Fulanolândia"
+    },
+    {
+        "id": 3,
+        "nome": "Beltrano da Silva",
+        "endereco": "Rua Sem Saida, 213",
+        "cidade": "Fulanolândia"
+    }
+]

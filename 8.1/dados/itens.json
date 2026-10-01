@@ -1,29 +1,29 @@
 [
     {
         "id": 1,
-        "cliente_id": 1,
-        "produto": "Chia",
-        "preco": 30,
+        "pedido_id": 1,
+        "produto_id": 1,
+        "preco": 300,
         "quantidade": 2
     },
     {
         "id": 2,
-        "cliente_id": 1,
-        "produto": "Psyllium",
+        "pedido_id": 1,
+        "produto_id": 2,
         "preco": 45,
         "quantidade": 2
     },
     {
         "id": 3,
-        "cliente_id": 2,
-        "produto": "Chia",
+        "pedido_id": 2,
+        "produto_id": 1,
         "preco": 30,
         "quantidade": 1
     },
     {
         "id": 4,
-        "cliente_id": 3,
-        "produto": "Psyllium",
+        "pedido_id": 3,
+        "produto_id": 2,
         "preco": 45,
         "quantidade": 3
     }
